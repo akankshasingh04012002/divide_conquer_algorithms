@@ -43,23 +43,32 @@ This technique significantly improves efficiency for many computational problems
 
 * Space Complexity: O(log n)
 
+###  Strassen’s Matrix Multiplication
+
+* Advanced divide and conquer technique
+
+* Reduces multiplication operations from 8 to 7
+
+* Time Complexity: O(n^2.81)
+
+* More efficient for very large matrices
+
+* Used in scientific and high-performance computing
+
 ##  Test Coverage
 
 The project includes comprehensive JUnit 5 test cases covering:
 
 *  Normal cases
-
 *  Edge cases (empty array, single element)
-
 *  Duplicate values
-
 *  Negative numbers
-
 *  Already sorted arrays
-
 *  Reverse sorted arrays
-
 *  Large input arrays
+* **Fast Searching** → Binary Search
+* **Fast Sorting** → Merge Sort & Quick Sort
+* **Complex Matrix Operations** → Strassen Algorithm
 
 ## How to Run the Project
 
